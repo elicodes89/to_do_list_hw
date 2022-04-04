@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App {
+  width: 60%;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+li {
+  margin: 20px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+li span {
+  padding: 8px;
+}
+li button {
+  background: #f2360c;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+li.low-priority {
+  border: 2px solid orange;
+  color: orange;
+}
+li.high-priority {
+  border: 2px solid #f2360c;
+}
+input[type="text"] {
+  padding: 10px;
+  width: 30%;
+  margin:20px;
+}
+button, input[type="submit"]{
+  padding: 10px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.label[new-task] {
+  background-color: #000;
+}
